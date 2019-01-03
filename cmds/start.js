@@ -27,7 +27,7 @@ module.exports.run = async (bot, message, args) => {
     let editLast3 = null;
 
     let startMessage = new Discord.RichEmbed()
-        .setTitle("set discord server name here")
+        .setTitle("FN Scrims")
         .setDescription("Waiting for server IDs...")
         .setColor("#8600b3")
         .setFooter("Please enter the last 3 characters of your server identifier located in the top left corner of your screen while in-game.");
