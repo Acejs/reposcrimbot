@@ -7,10 +7,10 @@ let sicon = message.guild.iconURL;
     .setTitle("My Commands!")
     .setDescription("All these Commands are **HOST ONLY!**")
     .setThumbnail(sicon)
-    .addField("!start", "Starts a Scrim!")
-    .addField("!60s", "Sends a message (Next scrim in 1 miniutes!)" )
-    .addField("!30s", "Sends a message (Next scrim in 30 seconds!)")
-    .addField("!now", "Sends a message (Scrims starting now!")
+    .addField("[p]start", "Starts a Scrim!")
+    .addField("[p]60s", "Sends a message (Next scrim in 1 miniutes!)" )
+    .addField("[p]30s", "Sends a message (Next scrim in 30 seconds!)")
+    .addField("[p]now", "Sends a message (Scrims starting now!")
     .setColor("#c0c0c0");
 
     message.member.send(cmdsembed);
